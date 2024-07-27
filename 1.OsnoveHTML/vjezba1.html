@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vježba</h1>
+    <table border="1">
+        <tr>
+            <th style="text-align: left; width:100px" >Ime</th>
+            <td style="border: 0;">
+                <form action="a" method="post">
+                    <input type="text" name="first_name" id="first_name">
+                </form>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <th style="text-align: left; width: 100;">Prezime</th>
+            <td style="border: 0;">
+                <form action="a" method="post">
+                    <input type="text" name="last_name">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left; width: 100;">Email</th>
+            <td style="border: 0;">
+                <form action="a" method="post">
+                    <input type="text" name="email">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left; width: 100;">Država</th>
+            <td style="border: 0;">
+                <form action="a" method="post">
+                    <select name="drzava" id="drzava">
+                        <option value="1">Hrvatska</option>
+                        <option value="2">Slovenija</option>
+                        <option value="3">Austrija</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left; width: 100;">Spol</th>
+            <td style="border: 1">
+                <form action="a" method="post">
+                    <input type="radio" name="gender" id="gender"> Muški
+                    <input type="radio" name="gender" id="gender"> Ženski
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left; width: 100;">Zanima me:</th>
+            <td style="border: 1;">
+                <form action="a" method="post">
+                    <input type="checkbox" name="zanima_me" id="zanima_me"> Plivanje 
+                    <input type="checkbox" name="zanima_me" id="zanima_me"> Penjanje
+                    <input type="checkbox" name="zanima_me" id="zanima_me"> Programiranje
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
