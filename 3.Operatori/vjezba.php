@@ -1,5 +1,6 @@
 <?php
 
+
 $a = 10;
 $b = -4;
 $c = "prvi";
@@ -19,7 +20,5 @@ echo"<br>";
 echo"<br>";
 echo"<br>";
 echo"<br>";
-
-
 
 
