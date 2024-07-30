@@ -9,7 +9,15 @@ var_dump($a + $b);
 var_dump($a - $b);
 var_dump($a * $b);
 var_dump($a / $b);
+var_dump($a % $b);
 
+echo"<br>";
+
+$f = $c . $d;
+var_dump($f);
+echo"<br>";
+echo"<br>";
+echo"<br>";
 echo"<br>";
 
 
