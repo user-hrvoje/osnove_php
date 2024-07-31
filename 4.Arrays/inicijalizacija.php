@@ -20,9 +20,20 @@ $status = ["name" => "Banana",
            "cijena" => "12 €",
            "klasa" => "Prva"
         ];
+
+$fruits = array("name" => "Banana",
+        "cijena" => "12 €",
+        "klasa" => "Prva"
+    );
+ echo '<pre>';
+ print_r($status);
+ echo '</pre>';
+ 
 echo '<pre>';
-print_r($status);
+var_dump($status);
 echo '</pre>';
+
+echo "<br>";
+var_dump($status);
+
 echo $status['name'];
-
-
