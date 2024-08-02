@@ -41,11 +41,14 @@ if ($postotakIspita >= 90) {
 } else {
     echo 'nismo mogli izračunati vasu ocjenu';
 }
-echo '<br>';
-if (count($primeNumbers) != 5) {
-    echo 'duzina je 5';
-} else {
-    echo 'duzina nije 5';
+echo '<br><br>';
+
+if ( count($primeNumbers) > 5) {
+    echo 'Array primeNumbers ima vise od 5 zapisa.';
+} elseif (count($primeNumbers) === 5) {
+    echo 'Array primeNumbers ima tocno 5 zapisa.';
+}else {
+    echo 'Array primeNumbers ima manje od 5 zapisa.';
 }
 
 echo '<br>';
