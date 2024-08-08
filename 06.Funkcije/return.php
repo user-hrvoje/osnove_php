@@ -2,11 +2,11 @@
 $a = 5;
 $b = 6;
 
-function addTwoNumbers($a, $b)
+function addTwoNumbers(int $a, int $b): int
 {
-    echo $a + $b;
+    return $a + $b;
 }
 
-addTwoNumbers($a, $b);
-
+$zbroj = addTwoNumbers($a, $b);
+var_dump($zbroj);
 
